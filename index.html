@@ -1,1 +1,22 @@
-# dashixiong
+<html>
+<body>
+
+<p>Select your favorite browser:</p>
+<form action="/action_page.php">
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="XOXO">XOXO<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Love Me Right">Love Me Right<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Ex Act">Ex Act<br>
+  
+  Your favorite browser is: <input type="text" id="result">
+  <input type="submit" value="Submit form">
+</form>
+
+<script>
+function myFunction(browser) {
+    document.getElementById("result").value = browser;
+}
+</script>
+
+</body>
+</html>
+
